@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Dandanpap — a personal software development portfolio.">
+  <title>Dandanpap — Developer</title>
+  <style>
+    :root{--bg:#0b1020;--card:#121a2f;--text:#eef2ff;--muted:#aab4d0;--line:#263252;--accent:#8b9cff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;background:radial-gradient(circle at top right,#202b58 0,#0b1020 45%);color:var(--text);line-height:1.6}
+    .wrap{max-width:960px;margin:auto;padding:0 24px}.nav{display:flex;justify-content:space-between;align-items:center;padding:28px 0}.brand{font-weight:800;letter-spacing:.04em}.nav a{color:var(--muted);text-decoration:none;margin-left:20px}.nav a:hover{color:var(--text)}
+    .hero{padding:92px 0 72px}.eyebrow{color:var(--accent);font-weight:700}.hero h1{font-size:clamp(44px,8vw,82px);line-height:1;margin:16px 0}.hero p{max-width:680px;color:var(--muted);font-size:20px}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-block;padding:12px 18px;border:1px solid var(--line);border-radius:12px;color:var(--text);text-decoration:none;background:var(--card)}.btn.primary{background:var(--accent);color:#080d1d;border-color:var(--accent);font-weight:800}
+    section{padding:54px 0;border-top:1px solid var(--line)}h2{font-size:30px;margin-top:0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:rgba(18,26,47,.8);border:1px solid var(--line);border-radius:16px;padding:22px}.card h3{margin-top:0}.card p{color:var(--muted)}
+    footer{padding:42px 0;color:var(--muted);font-size:14px}@media(max-width:700px){.grid{grid-template-columns:1fr}.nav a{margin-left:10px}.hero{padding-top:58px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <nav class="nav">
+      <div class="brand">DANDANPAP</div>
+      <div><a href="#about">About</a><a href="#projects">Projects</a></div>
+    </nav>
+    <main>
+      <section class="hero" style="border-top:0">
+        <div class="eyebrow">SOFTWARE • WEB • BUILDING</div>
+        <h1>Building things for the web.</h1>
+        <p>Dandanpap is a personal space for software projects, experiments, and web development work.</p>
+        <div class="buttons">
+          <a class="btn primary" href="https://github.com/sarapapbarbi-maker">GitHub Profile</a>
+          <a class="btn" href="#projects">See projects</a>
+        </div>
+      </section>
+      <section id="about">
+        <h2>About</h2>
+        <p>I use this site to share software-development projects and experiments. More projects and details will be added over time.</p>
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="grid">
+          <article class="card"><h3>Dandanpap</h3><p>A GitHub Pages project and personal web space.</p><a class="btn" href="https://github.com/sarapapbarbi-maker/Dandanpap">View repository</a></article>
+          <article class="card"><h3>Experiments</h3><p>Small web and coding experiments collected in one place.</p></article>
+          <article class="card"><h3>Open Source</h3><p>Learning, building, and contributing through GitHub.</p></article>
+        </div>
+      </section>
+    </main>
+    <footer>© 2026 Dandanpap · Built with HTML & GitHub Pages</footer>
+  </div>
+</body>
+</html>
